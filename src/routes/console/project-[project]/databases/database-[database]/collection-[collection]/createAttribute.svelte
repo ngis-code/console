@@ -1,16 +1,16 @@
 <script lang="ts">
-    import { Modal } from '$lib/components';
-    import { option, attributeOptions, type Option } from './attributes/store';
-    import { Button, InputText, FormList } from '$lib/elements/forms';
     import { goto, invalidate } from '$app/navigation';
-    import { Dependencies } from '$lib/constants';
-    import { page } from '$app/stores';
-    import { addNotification, dismissAllNotifications } from '$lib/stores/notifications';
     import { base } from '$app/paths';
-    import type { Attributes } from './store';
-    import { Submit, trackEvent, trackError } from '$lib/actions/analytics';
-    import { preferences } from '$lib/stores/preferences';
+    import { page } from '$app/stores';
+    import { Submit, trackError, trackEvent } from '$lib/actions/analytics';
+    import { Modal } from '$lib/components';
+    import { Dependencies } from '$lib/constants';
+    import { Button, FormList, InputText } from '$lib/elements/forms';
     import { feedback } from '$lib/stores/feedback';
+    import { addNotification, dismissAllNotifications } from '$lib/stores/notifications';
+    import { preferences } from '$lib/stores/preferences';
+    import { attributeOptions, option, type Option } from './attributes/store';
+    import type { Attributes } from './store';
 
     export let showCreate = false;
     export let selectedOption: Option['name'] = null;
@@ -104,7 +104,7 @@
             <span class="u-flex u-gap-16 u-cross-center">
                 {selectedOption}
                 <div class="tag eyebrow-heading-3">
-                    <span class="text u-x-small">Beta</span>
+                    <span class="text u-x-small">Experimental</span>
                 </div>
             </span>
         {:else}
