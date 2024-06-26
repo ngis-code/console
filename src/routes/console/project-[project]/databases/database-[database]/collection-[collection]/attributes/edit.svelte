@@ -63,7 +63,7 @@
             <div class="u-flex u-cross-center u-gap-8">
                 {option?.name}
                 {#if option?.type === 'relationship'}
-                    <div class="tag eyebrow-heading-3">
+                    <div class="tag eyebrow-heading-3 is-not-mobile">
                         <span class="text u-x-small">Experimental</span>
                     </div>
                 {/if}

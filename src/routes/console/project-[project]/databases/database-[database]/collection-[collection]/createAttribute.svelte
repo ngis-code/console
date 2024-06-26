@@ -103,7 +103,7 @@
         {#if selectedOption === 'Relationship'}
             <span class="u-flex u-gap-16 u-cross-center">
                 {selectedOption}
-                <div class="tag eyebrow-heading-3">
+                <div class="tag eyebrow-heading-3 is-not-mobile">
                     <span class="text u-x-small">Experimental</span>
                 </div>
             </span>
