@@ -145,7 +145,7 @@
                     </p>
                 </div>
                 <div class="u-flex u-gap-16 u-main-center">
-                    <Button external href="https://appwrite.io/docs/sdks" text>
+                    <Button external href="https://localhost/docs/sdks" text>
                         Documentation
                     </Button>
                     <DropList bind:show={showDropdownEmpty} placement="bottom-start">

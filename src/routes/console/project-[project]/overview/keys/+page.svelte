@@ -63,7 +63,7 @@
 {:else}
     <Empty
         single
-        href="https://appwrite.io/docs/advanced/platform/api-keys"
+        href="https://localhost/docs/advanced/platform/api-keys"
         target="API key"
         on:click={createApiKey} />
 {/if}

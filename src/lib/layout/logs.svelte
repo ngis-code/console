@@ -218,7 +218,7 @@
                                     use
                                     <b>context.log()</b>.
                                     <a
-                                        href="https://appwrite.io/docs/products/functions/development#logging"
+                                        href="https://localhost/docs/products/functions/development#logging"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="link">Learn more</a
@@ -256,7 +256,7 @@
                                     header data in the Logs tab, use
                                     <b>context.log()</b>.
                                     <a
-                                        href="https://appwrite.io/docs/products/functions/development#logging"
+                                        href="https://localhost/docs/products/functions/development#logging"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="link">Learn more</a
@@ -268,7 +268,7 @@
                                     and privacy. To display body data in the Logs tab, use
                                     <b>context.log()</b>.
                                     <a
-                                        href="https://appwrite.io/docs/products/functions/development#logging"
+                                        href="https://localhost/docs/products/functions/development#logging"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="link">Learn more</a
@@ -358,7 +358,7 @@
                                     header data in the Logs tab, use
                                     <b>context.log()</b>.
                                     <a
-                                        href="https://appwrite.io/docs/products/functions/development#logging"
+                                        href="https://localhost/docs/products/functions/development#logging"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="link">Learn more</a
@@ -370,7 +370,7 @@
                                     and privacy. To display body data in the Logs tab, use
                                     <b>context.log()</b>.
                                     <a
-                                        href="https://appwrite.io/docs/products/functions/development#logging"
+                                        href="https://localhost/docs/products/functions/development#logging"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         class="link">Learn more</a

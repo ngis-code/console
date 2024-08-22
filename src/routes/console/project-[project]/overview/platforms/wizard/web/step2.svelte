@@ -25,18 +25,18 @@
 <WizardStep>
     <svelte:fragment slot="title">Install</svelte:fragment>
     <svelte:fragment slot="subtitle">
-        Choose your preferred method of installation
+       This step has already been setup for you SDK locally.
         <div class="u-flex u-gap-16 u-margin-block-start-8">
-            <Pill button on:click={() => (method = Method.NPM)} selected={method === Method.NPM}>
+            <!-- <Pill button on:click={() => (method = Method.NPM)} selected={method === Method.NPM}>
                 NPM
             </Pill>
             <Pill button on:click={() => (method = Method.CDN)} selected={method === Method.CDN}>
                 CDN
-            </Pill>
+            </Pill> -->
         </div>
     </svelte:fragment>
     {#if method === Method.NPM}
-        <p>
+        <!-- <p>
             Use <a
                 href="https://npmjs.com/package/appwrite"
                 target="_blank"
@@ -55,10 +55,10 @@
             <a href="https://rollupjs.org" target="_blank" rel="noopener noreferrer" class="link"
                 >Rollup</a
             >, import Appwrite as a module.
-        </p>
-        <Code label="Web SDK" labelIcon="code" language="js" code={example1} withCopy />
+        </p> -->
+        <!-- <Code label="Web SDK" labelIcon="code" language="js" code={example1} withCopy /> -->
     {:else if method === Method.CDN}
-        <p>Add the following script tags to install Appwrite with a CDN.</p>
-        <Code label="HTML" language="html" code={example2} withCopy />
+        <!-- <p>Add the following script tags to install Appwrite with a CDN.</p>
+        <Code label="HTML" language="html" code={example2} withCopy /> -->
     {/if}
 </WizardStep>

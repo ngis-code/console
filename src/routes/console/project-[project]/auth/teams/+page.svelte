@@ -111,7 +111,7 @@
         <Empty
             single
             on:click={() => ($showCreateTeam = true)}
-            href="https://appwrite.io/docs/references/cloud/client-web/teams"
+            href="https://localhost/docs/references/cloud/client-web/teams"
             target="team" />
     {/if}
 </Container>

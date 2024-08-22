@@ -103,20 +103,20 @@
 
 <Container overlapCover size="large">
     <Card>
-        <Heading size="4" tag="h2">Create a new organization</Heading>
+        <Heading size="4" tag="h2">Create A New Ship</Heading>
         <Form onSubmit={handleSubmit}>
             <FormList gap={16}>
                 <InputText
                     id="name"
                     label="Name"
-                    placeholder="Organization name"
+                    placeholder="Ship name"
                     hideRequired
                     bind:value={name} />
                 {#if !showCustomId}
                     <div>
                         <Pill button on:click={() => (showCustomId = !showCustomId)}>
                             <span class="icon-pencil" aria-hidden="true" /><span class="text">
-                                Organization ID
+                                Ship ID
                             </span>
                         </Pill>
                     </div>

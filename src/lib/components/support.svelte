@@ -79,12 +79,12 @@
 
     <div class="u-flex u-gap-16">
         <a
-            href="https://appwrite.io/docs"
+            href="https://localhost/docs"
             target="_blank"
             rel="noopener noreferrer"
             class="button is-secondary u-padding-inline-12 u-stretch u-main-center u-gap-4 u-flex-basis-auto">
             <span class="icon-book-open" aria-hidden="true" />
-            <span class="text">Docs</span>
+            <span class="text">Dos</span>
         </a>
         <a
             href="https://github.com/appwrite/appwrite/issues"

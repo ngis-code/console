@@ -94,7 +94,7 @@
             <div class="u-flex u-flex-wrap u-gap-16 u-main-center">
                 <Button
                     external
-                    href="https://appwrite.io/docs/products/messaging/providers"
+                    href="https://localhost/docs/products/messaging/providers"
                     text
                     event="empty_documentation"
                     ariaLabel={`create provider`}>

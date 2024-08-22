@@ -255,7 +255,7 @@
             <div class="u-flex u-gap-16">
                 <Button
                     external
-                    href="https://appwrite.io/docs/products/storage/upload-download"
+                    href="https://localhost/docs/products/storage/upload-download"
                     text>
                     Documentation
                 </Button>
@@ -269,7 +269,7 @@
     {:else}
         <Empty
             single
-            href="https://appwrite.io/docs/products/storage/upload-download"
+            href="https://localhost/docs/products/storage/upload-download"
             target="file"
             on:click={() => wizard.start(Create)} />
     {/if}

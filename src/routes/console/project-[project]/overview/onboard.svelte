@@ -50,22 +50,10 @@
 </script>
 
 <div class="card">
-    <header class="card-header common-section grid-1-2">
-        <div class="grid-1-2-col-1">
-            <h2 class="heading-level-5">Getting started</h2>
-            <p class="u-line-height-1-5 u-margin-block-start-12">
-                Here are some next steps to start building
-            </p>
-        </div>
-    </header>
+  
 
     <section class="common-section card-separator grid-1-2">
-        <div class="grid-1-2-col-1">
-            <h3 class="heading-level-7">Add a platform</h3>
-            <p class="u-line-height-1-5 u-margin-block-start-16">
-                Our SDKs make it possible to easily integrate with any platform.
-            </p>
-        </div>
+   
         <div class="grid-1-2-col-2">
             <ul class="grid-box">
                 {#each platforms as platform}
@@ -101,8 +89,7 @@
         <div class="grid-1-2-col-1">
             <h3 class="heading-level-7">Integrate with your server</h3>
             <p class="u-line-height-1-5 u-margin-block-start-16">
-                Appwrite is designed to adapt to your existing backend. Integrate Appwrite with your
-                backend code base using Server SDKs or Webhooks.
+                
             </p>
         </div>
         <div class="grid-1-2-col-2">

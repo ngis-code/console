@@ -101,7 +101,7 @@
             </div>
             <Button
                 external
-                href="https://appwrite.io/docs/products/auth/teams#create-membership"
+                href="https://localhost/docs/products/auth/teams#create-membership"
                 text>
                 Documentation
             </Button>
@@ -110,7 +110,7 @@
     {:else}
         <Empty
             single
-            href="https://appwrite.io/docs/products/auth/teams"
+            href="https://localhost/docs/products/auth/teams"
             target="membership"
             on:click={() => (showCreate = true)} />
     {/if}

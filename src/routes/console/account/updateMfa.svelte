@@ -98,7 +98,7 @@
                     sign-in method. <Button
                         link
                         external
-                        href="https://appwrite.io/docs/products/auth/mfa">Learn more.</Button>
+                        href="https://localhost/docs/products/auth/mfa">Learn more.</Button>
                 </p>
             </div>
             {#if $user.mfa}

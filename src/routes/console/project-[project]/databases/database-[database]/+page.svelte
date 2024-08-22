@@ -38,7 +38,7 @@
     {:else}
         <Empty
             single
-            href="https://appwrite.io/docs/products/databases/collections"
+            href="https://localhost/docs/products/databases/collections"
             target="collection"
             on:click={() => ($showCreate = true)} />
     {/if}

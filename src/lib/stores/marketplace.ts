@@ -69,7 +69,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: false,
@@ -601,7 +601,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -609,7 +609,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The API endpoint of the Appwrite. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The API endpoint of the Appwrite. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -617,7 +617,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database to store the short URLs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database to store the short URLs. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 value: 'urlShortener',
                 placeholder: 'urlShortener',
                 required: false,
@@ -625,7 +625,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection to store the short URLs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection to store the short URLs. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 value: 'urls',
                 placeholder: 'urls',
                 required: false,
@@ -679,7 +679,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -687,14 +687,14 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the Appwrite database that contains the collection to sync. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the Appwrite database that contains the collection to sync. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 placeholder: '64a55...7b912',
                 required: true,
                 type: 'text'
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection in the Appwrite database to sync. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection in the Appwrite database to sync. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 placeholder: '7c3e8...2a9f1',
                 required: true,
                 type: 'text'
@@ -729,7 +729,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -787,7 +787,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -795,14 +795,14 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the Appwrite database that contains the collection to sync. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the Appwrite database that contains the collection to sync. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 placeholder: '64a55...7b912',
                 required: true,
                 type: 'text'
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection in the Appwrite database to sync. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection in the Appwrite database to sync. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 placeholder: '7c3e8...2a9f1',
                 required: true,
                 type: 'text'
@@ -837,7 +837,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1093,7 +1093,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1101,7 +1101,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1149,7 +1149,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1157,7 +1157,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1179,7 +1179,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database to store paid orders. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database to store paid orders. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 value: 'orders',
                 placeholder: 'orders',
                 required: false,
@@ -1187,7 +1187,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection to store paid orders. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection to store paid orders. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 value: 'orders',
                 placeholder: 'orders',
                 required: false,
@@ -1287,7 +1287,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1295,7 +1295,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1303,7 +1303,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 value: 'ai',
                 placeholder: 'ai',
                 required: false,
@@ -1311,7 +1311,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 value: 'image_classification',
                 placeholder: 'image_classification',
                 required: false,
@@ -1319,7 +1319,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where the images are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where the images are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 value: 'image_classification',
                 placeholder: 'image_classification',
                 required: false,
@@ -1360,7 +1360,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1368,7 +1368,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1376,7 +1376,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 value: 'ai',
                 placeholder: 'ai',
                 required: false,
@@ -1384,7 +1384,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 value: 'object_detection',
                 placeholder: 'object_detection',
                 required: false,
@@ -1392,7 +1392,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where the images are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where the images are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 value: 'object_detection',
                 placeholder: 'object_detection',
                 required: false,
@@ -1433,7 +1433,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1441,7 +1441,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1449,7 +1449,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 value: 'ai',
                 placeholder: 'ai',
                 required: false,
@@ -1457,7 +1457,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 value: 'speech_recognition',
                 placeholder: 'speech_recognition',
                 required: false,
@@ -1465,7 +1465,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 value: 'speech_recognition',
                 placeholder: 'speech_recognition',
                 required: false,
@@ -1506,7 +1506,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1514,7 +1514,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1522,7 +1522,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 value: 'ai',
                 placeholder: 'ai',
                 required: false,
@@ -1530,7 +1530,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 value: 'speech_recognition',
                 placeholder: 'speech_recognition',
                 required: false,
@@ -1538,7 +1538,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 value: 'speech_recognition',
                 placeholder: 'speech_recognition',
                 required: false,
@@ -1621,7 +1621,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1629,7 +1629,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1637,7 +1637,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 placeholder: 'generated_speech',
                 required: true,
                 type: 'text'
@@ -1766,7 +1766,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1774,7 +1774,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1782,14 +1782,14 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database where the documents are stored.  <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database where the documents are stored.  <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 placeholder: 'my-database',
                 required: true,
                 type: 'text'
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection where the documents are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection where the documents are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 placeholder: 'my-collection',
                 required: true,
                 type: 'text'
@@ -1844,7 +1844,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1852,7 +1852,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1860,14 +1860,14 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database where the documents are stored.  <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database where the documents are stored.  <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 placeholder: 'my-database',
                 required: true,
                 type: 'text'
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection where the documents are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection where the documents are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 placeholder: 'my-collection',
                 required: true,
                 type: 'text'
@@ -1907,7 +1907,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1915,7 +1915,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1923,21 +1923,21 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database where the responses are stored.  <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 placeholder: 'my-database',
                 required: true,
                 type: 'text'
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection where the responses are stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 placeholder: 'my-collection',
                 required: true,
                 type: 'text'
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 placeholder: 'generated_speech',
                 required: true,
                 type: 'text'
@@ -1977,7 +1977,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -1985,7 +1985,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -1993,7 +1993,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where audio is stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 placeholder: 'generated_speech',
                 required: true,
                 type: 'text'
@@ -2066,7 +2066,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -2074,7 +2074,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -2082,7 +2082,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_BUCKET_ID',
-                description: `The ID of the bucket where generated music is stored. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/storage/buckets">Learn more</a>.`,
+                description: `The ID of the bucket where generated music is stored. <a class="u-bold" target="_blank" href="https://localhost/docs/products/storage/buckets">Learn more</a>.`,
                 value: 'generated_music',
                 placeholder: 'generated_music',
                 required: false,
@@ -2157,7 +2157,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -2165,7 +2165,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -2227,7 +2227,7 @@ export const marketplace: MarketplaceTemplate[] = [
         variables: [
             {
                 name: 'APPWRITE_API_KEY',
-                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/advanced/platform/api-keys">Learn more</a>.`,
+                description: `The API Key to authenticate against Appwrite's Server APIs. <a class="u-bold" target="_blank" href="https://localhost/docs/advanced/platform/api-keys">Learn more</a>.`,
                 value: '',
                 placeholder: 'd1efb...aec35',
                 required: true,
@@ -2235,7 +2235,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_ENDPOINT',
-                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/references#api">Learn more</a>.`,
+                description: `The URL endpoint of the Appwrite server. <a class="u-bold" target="_blank" href="https://localhost/docs/references#api">Learn more</a>.`,
                 value: 'https://cloud.appwrite.io/v1',
                 placeholder: 'https://cloud.appwrite.io/v1',
                 required: false,
@@ -2243,7 +2243,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_DATABASE_ID',
-                description: `The ID of the database to store paid orders. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/databases">Learn more</a>.`,
+                description: `The ID of the database to store paid orders. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/databases">Learn more</a>.`,
                 value: 'orders',
                 placeholder: 'orders',
                 required: false,
@@ -2251,7 +2251,7 @@ export const marketplace: MarketplaceTemplate[] = [
             },
             {
                 name: 'APPWRITE_COLLECTION_ID',
-                description: `The ID of the collection to store paid orders. <a class="u-bold" target="_blank" href="https://appwrite.io/docs/products/databases/collections">Learn more</a>.`,
+                description: `The ID of the collection to store paid orders. <a class="u-bold" target="_blank" href="https://localhost/docs/products/databases/collections">Learn more</a>.`,
                 value: 'orders',
                 placeholder: 'orders',
                 required: false,

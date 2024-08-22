@@ -12,7 +12,7 @@
         <ul class="inline-links is-no-padding-first-and-last u-x-small u-flex-wrap u-row-gap-16">
             <li class="inline-links-item" style="line-height: 1.02;">
                 <div class="u-flex u-cross-center u-gap-8">
-                    {#if isCloud}
+                    <!-- {#if isCloud}
                         <span class="icon-cloud" />
                     {/if}
                     {#if $version}
@@ -21,14 +21,14 @@
                             href="https://github.com/appwrite/appwrite/releases"
                             target="_blank"
                             rel="noreferrer">
-                            Version {$version}
+                            UI  {$version}
                         </a>
                     {/if}
                 </div>
             </li>
             <li class="inline-links-item">
-                <a href="https://appwrite.io/docs" target="_blank" rel="noreferrer">
-                    <span class="text">Docs</span>
+                <a href="https://localhost/docs" target="_blank" rel="noreferrer">
+                    <span class="text">Docddds</span>
                 </a>
             </li>
             <li class="inline-links-item">
@@ -41,6 +41,10 @@
                     <span class="text">Privacy</span>
                 </a>
             </li>
+            <li>
+                
+            </li>
+        
             {#if isCloud}
                 <li class="inline-links-item">
                     <span
@@ -54,9 +58,9 @@
                 </li>
             {/if}
         </ul>
-    </div>
+    </div> -->
     <div class="main-footer-end">
-        <ul class="inline-links is-no-padding-first-and-last u-x-small">
+        <!-- <ul class="inline-links is-no-padding-first-and-last u-x-small">
             <li class="inline-links-item">
                 <span class="text">ⓒ {currentYear} Appwrite. All rights reserved.</span>
             </li>
@@ -71,7 +75,7 @@
                         aria-label="Appwrite on Discord" />
                 </a>
             </li>
-        </ul>
+        </ul> -->
     </div>
 </footer>
 

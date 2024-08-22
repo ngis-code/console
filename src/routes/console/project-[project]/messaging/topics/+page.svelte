@@ -115,7 +115,7 @@
         <Empty
             single
             on:click={() => ($showCreate = true)}
-            href="https://appwrite.io/docs/products/messaging/topics"
+            href="https://localhost/docs/products/messaging/topics"
             target="topic" />
     {/if}
 </Container>

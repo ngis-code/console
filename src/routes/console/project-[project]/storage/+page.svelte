@@ -89,7 +89,7 @@
     {:else}
         <Empty
             single
-            href="https://appwrite.io/docs/products/storage"
+            href="https://localhost/docs/products/storage"
             target="bucket"
             on:click={() => ($showCreateBucket = true)} />
     {/if}

@@ -235,7 +235,7 @@
                             <div class="u-flex u-gap-16 common-section u-main-center">
                                 <Button
                                     external
-                                    href="https://appwrite.io/docs/products/auth/accounts"
+                                    href="https://localhost/docs/products/auth/accounts"
                                     text>Documentation</Button>
                                 <Button secondary on:click={() => (search = '')}
                                     >Clear search</Button>
@@ -253,7 +253,7 @@
                                     Need a hand? Learn more in our <Button
                                         link
                                         external
-                                        href="https://appwrite.io/docs/products/auth/quick-start"
+                                        href="https://localhost/docs/products/auth/quick-start"
                                         >documentation</Button
                                     >.
                                 </p>

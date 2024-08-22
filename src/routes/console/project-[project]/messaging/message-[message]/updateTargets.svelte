@@ -179,7 +179,7 @@
                             Need a hand? Check out our <Button
                                 link
                                 external
-                                href="https://appwrite.io/docs/products/messaging/targets"
+                                href="https://localhost/docs/products/messaging/targets"
                                 text>
                                 documentation</Button
                             >.

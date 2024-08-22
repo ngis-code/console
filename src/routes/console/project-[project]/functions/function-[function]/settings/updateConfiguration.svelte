@@ -285,7 +285,7 @@
                                     first configure your environment variables.
                                     <svelte:fragment slot="buttons">
                                         <Button
-                                            href="https://appwrite.io/docs/advanced/self-hosting/functions"
+                                            href="https://localhost/docs/advanced/self-hosting/functions"
                                             external
                                             text>
                                             Learn more

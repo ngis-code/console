@@ -245,7 +245,7 @@
                 <p>There are no messages that match your search.</p>
             </div>
             <div class="u-flex u-gap-16">
-                <Button external href="https://appwrite.io/docs/products/messaging/messages" text>
+                <Button external href="https://localhost/docs/products/messaging/messages" text>
                     Documentation
                 </Button>
                 <Button secondary href={`/console/project-${$page.params.project}/messaging`}>
@@ -264,14 +264,7 @@
                 </p>
             </div>
             <div class="u-flex u-flex-wrap u-gap-16 u-main-center">
-                <Button
-                    external
-                    href="https://appwrite.io/docs/products/messaging/messages"
-                    text
-                    event="empty_documentation"
-                    ariaLabel={`create message`}>
-                    Documentation
-                </Button>
+             
                 <CreateMessageDropdown bind:showCreateDropdown={showCreateDropdownEmpty}>
                     <Button
                         secondary

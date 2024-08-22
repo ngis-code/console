@@ -24,7 +24,7 @@
 <Heading tag="h1" size="1">Missing redirect URL</Heading>
 <p>
     Your Magic URL login flow is missing a proper redirect URL. Please check the
-    <a href="https://appwrite.io/docs/references/cloud/client-web/account#createMagicURLSession"
+    <a href="https://localhost/docs/references/cloud/client-web/account#createMagicURLSession"
         >Magic URL docs</a>
     and send request for new session with a valid redirect URL.
 </p>

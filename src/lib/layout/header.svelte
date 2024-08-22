@@ -122,44 +122,8 @@
                 <div class="pulse-notification" />
             </div>
         {/if}
-        <DropList show={$feedback.show} scrollable on:blur={toggleFeedback}>
-            <button class="button is-small is-text" on:click={toggleFeedback}>
-                {#if $feedback.notification}
-                    <span
-                        class="notification u-position-absolute u-inset-block-start-8 u-inset-inline-end-8"
-                    ></span>
-                {/if}
-                <span class="text">Feedback</span>
-            </button>
-            <svelte:fragment slot="other">
-                <Feedback />
-            </svelte:fragment>
-        </DropList>
-
-        {#if isCloud}
-            <DropList width="18.5" bind:show={showSupport} scrollable={true}>
-                <Button text on:click={() => (showSupport = !showSupport)}>
-                    <span class="text">Support</span>
-                </Button>
-                <svelte:fragment slot="other">
-                    <Support bind:show={showSupport} />
-                </svelte:fragment>
-            </DropList>
-        {/if}
-        <Button
-            actions={[
-                (node) => {
-                    return tooltip(node, {
-                        content: isMac() ? '⌘ + K' : 'Ctrl + K',
-                        placement: 'bottom'
-                    });
-                }
-            ]}
-            text
-            class="is-small"
-            on:click={toggleCommandCenter}>
-            <i class="icon-search" />
-        </Button>
+    
+      
     </nav>
     <nav class="u-flex u-height-100-percent u-sep-inline-start">
         {#if $user}

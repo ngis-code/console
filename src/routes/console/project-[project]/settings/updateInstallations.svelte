@@ -81,11 +81,11 @@
 </script>
 
 <CardGrid>
-    <Heading tag="h6" size="7">Git configuration</Heading>
+    <!-- <Heading tag="h6" size="7">Git configuration</Heading>
     <p class="text">
         Add a Git installation to your project. You can connect a repository in your function
         settings.
-    </p>
+    </p> -->
     <svelte:fragment slot="aside">
         {#if total > 0}
             <div>
@@ -190,7 +190,7 @@
                     environment variables.
                     <svelte:fragment slot="buttons">
                         <Button
-                            href="https://appwrite.io/docs/advanced/self-hosting/functions"
+                            href="https://localhost/docs/advanced/self-hosting/functions"
                             external
                             text>
                             Learn more

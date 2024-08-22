@@ -23,7 +23,7 @@
     <svelte:fragment slot="subtitle">
         Select a source platform with the project you want to migrate. <a
             class="link"
-            href="https://appwrite.io/docs/advanced/migrations"
+            href="https://localhost/docs/advanced/migrations"
             target="_blank"
             rel="noopener noreferrer">
             Learn about which platforms are supported</a

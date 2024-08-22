@@ -131,7 +131,7 @@
         {:else}
             <Empty
                 single
-                href="https://appwrite.io/docs/products/databases/collections#indexes"
+                href="https://localhost/docs/products/databases/collections#indexes"
                 target="index"
                 on:click={() => (showCreateIndex = true)} />
         {/if}
@@ -146,7 +146,7 @@
             <div class="u-flex u-gap-16 u-main-center">
                 <Button
                     external
-                    href="https://appwrite.io/docs/products/databases/collections#attributes"
+                    href="https://localhost/docs/products/databases/collections#attributes"
                     text
                     event="empty_documentation"
                     ariaLabel={`create {target}`}>Documentation</Button>

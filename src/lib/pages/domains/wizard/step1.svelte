@@ -38,7 +38,7 @@
     <svelte:fragment slot="title">Domain</svelte:fragment>
     <svelte:fragment slot="subtitle">
         Use your self-owned domain as the endpoint of your Appwrite API. <a
-            href="https://appwrite.io/docs/advanced/platform/custom-domains"
+            href="https://localhost/docs/advanced/platform/custom-domains"
             target="_blank"
             rel="noopener noreferrer"
             class="link">Learn more</a
@@ -59,7 +59,7 @@
             <p>
                 You can find a list of domain providers and their DNS setting documentation <a
                     class="link"
-                    href="https://appwrite.io/docs/advanced/platform/custom-domains#cname-record"
+                    href="https://localhost/docs/advanced/platform/custom-domains#cname-record"
                     target="_blank"
                     rel="noreferrer">here</a
                 >. If your domain provider isn't listed, please contact us, and we'll include their
@@ -76,7 +76,7 @@
             domain.
             <svelte:fragment slot="buttons">
                 <Button
-                    href="https://appwrite.io/docs/advanced/self-hosting/functions#git"
+                    href="https://localhost/docs/advanced/self-hosting/functions#git"
                     external
                     text>
                     Learn more

@@ -213,7 +213,7 @@
                         <div class="u-flex u-gap-16 common-section u-main-center">
                             <Button
                                 external
-                                href="https://appwrite.io/docs/products/functions/deployment"
+                                href="https://localhost/docs/products/functions/deployment"
                                 text>Documentation</Button>
                             <Button secondary on:click={() => (search = '')}>Clear search</Button>
                         </div>
@@ -226,7 +226,7 @@
                             <p class="text u-line-height-1-5">You have no repositories.</p>
                             <p class="text u-line-height-1-5">
                                 Need a hand? Learn more in our <a
-                                    href="https://appwrite.io/docs/products/functions/deployment"
+                                    href="https://localhost/docs/products/functions/deployment"
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     documentation</a

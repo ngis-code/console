@@ -90,7 +90,7 @@
     <p class="text">
         Manually execute your function. <a
             class="link"
-            href="https://appwrite.io/docs/products/functions/execution"
+            href="https://localhost/docs/products/functions/execution"
             target="_blank"
             rel="noopener noreferrer">
             Learn more
@@ -107,7 +107,7 @@
                 data in your executions.
                 <svelte:fragment slot="buttons">
                     <Button
-                        href="https://appwrite.io/docs/products/functions/development"
+                        href="https://localhost/docs/products/functions/development"
                         external
                         text>
                         Learn more

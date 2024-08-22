@@ -44,20 +44,10 @@
                         Create a {target} to get started.
                     </Heading>
                     <p class="body-text-2 u-bold u-margin-block-start-4">
-                        Need a hand? Learn more in our documentation.
+                  
                     </p>
                 </div>
-                <div class="u-flex u-flex-wrap u-gap-16 u-main-center">
-                    <Button
-                        external
-                        {href}
-                        text
-                        event="empty_documentation"
-                        ariaLabel="create {target}">Documentation</Button>
-                    <Button secondary on:click on:click={track}>
-                        Create {target}
-                    </Button>
-                </div>
+               
             </slot>
         </div>
     </article>

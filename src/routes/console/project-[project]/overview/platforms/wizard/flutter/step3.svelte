@@ -22,7 +22,7 @@ client
 
     <h2 class="heading-level-7">Initialize your SDK</h2>
     <p data-private>
-        Initialize your SDK by pointing the client to your Appwrite project using your <Id
+        Initialize your SDK by pointing the client to your project using your <Id
             value={project}>Project ID</Id>
     </p>
     <div class="u-margin-block-start-16">

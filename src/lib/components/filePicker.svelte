@@ -488,7 +488,7 @@
                                                             <p class="text u-line-height-1-5">
                                                                 Need a hand? Learn more in our <a
                                                                     class="link"
-                                                                    href="https://appwrite.io/docs/products/storage"
+                                                                    href="https://localhost/docs/products/storage"
                                                                     target="_blank"
                                                                     rel="noopener noreferrer">
                                                                     documentation</a

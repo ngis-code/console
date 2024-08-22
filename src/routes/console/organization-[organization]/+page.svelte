@@ -216,7 +216,7 @@
                 single
                 on:click={handleCreateProject}
                 target="project"
-                href="https://appwrite.io/docs/quick-starts"></Empty>
+                href="https://localhost/docs/quick-starts"></Empty>
         {/if}
 
         <PaginationWithLimit

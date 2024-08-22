@@ -33,7 +33,7 @@
                 Your OAuth login flow is missing a proper redirect URL. Please check the
                 <a
                     class="link"
-                    href="https://appwrite.io/docs/references/cloud/client-web/account#createOAuth2Session"
+                    href="https://localhost/docs/references/cloud/client-web/account#createOAuth2Session"
                     >OAuth docs</a>
                 and send request for new session with a valid callback URL.
             </p>

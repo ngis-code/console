@@ -128,7 +128,7 @@
     {:else}
         <Empty
             single
-            href="https://appwrite.io/docs/products/functions"
+            href="https://localhost/docs/products/functions"
             target="function"
             on:click={openWizard} />
     {/if}

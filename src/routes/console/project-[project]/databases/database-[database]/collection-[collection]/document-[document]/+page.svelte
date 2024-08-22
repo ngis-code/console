@@ -72,7 +72,7 @@
             <b>document level</b> to access a document. If no permissions are configured, no user
             can access the document
             <a
-                href="https://appwrite.io/docs/products/databases/permissions"
+                href="https://localhost/docs/products/databases/permissions"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="link">Learn more about database permissions</a

@@ -13,7 +13,7 @@
         <p class="text">
             Deploy your function from the Git provider of your choice by following the steps below.
             Learn more in our <a
-                href="https://appwrite.io/docs/products/functions/deployment"
+                href="https://localhost/docs/products/functions/deployment"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="link">documentation</a
@@ -76,7 +76,7 @@
                     <div class="alert-buttons u-flex u-margin-inline-start-auto">
                         <Button
                             text
-                            href="https://appwrite.io/docs/products/functions/deployment"
+                            href="https://localhost/docs/products/functions/deployment"
                             external>
                             Learn more
                         </Button>

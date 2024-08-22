@@ -154,7 +154,7 @@
                             <div class="u-flex u-gap-16 common-section u-main-center">
                                 <Button
                                     external
-                                    href="https://appwrite.io/docs/products/messaging/topics"
+                                    href="https://localhost/docs/products/messaging/topics"
                                     text>Documentation</Button>
                                 <Button secondary on:click={() => (search = '')}
                                     >Clear search</Button>
@@ -172,7 +172,7 @@
                                     Need a hand? Learn more in our <Button
                                         link
                                         external
-                                        href="https://appwrite.io/docs/products/messaging/topics"
+                                        href="https://localhost/docs/products/messaging/topics"
                                         >documentation</Button
                                     >.
                                 </p>

@@ -107,7 +107,7 @@
                 <Button
                     external
                     secondary
-                    href="https://appwrite.io/docs/products/auth/email-password">
+                    href="https://localhost/docs/products/auth/email-password">
                     Documentation
                 </Button>
             </div>
