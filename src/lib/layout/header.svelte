@@ -11,8 +11,8 @@
     import { toggleCommandCenter } from '$lib/commandCenter/commandCenter.svelte';
     import Button from '$lib/elements/forms/button.svelte';
     import { isMac } from '$lib/helpers/platform';
-    import AppwriteLogoDark from '$lib/images/appwrite-logo-dark.svg';
-    import AppwriteLogoLight from '$lib/images/appwrite-logo-light.svg';
+    import AppwriteLogoDark from '$lib/images/appwrite-logo-light.svg';
+    import AppwriteLogoLight from '$lib/images/appwrite-logo-dark.svg';
     import DarkMode from '$lib/images/mode/dark-mode.svg';
     import LightMode from '$lib/images/mode/light-mode.svg';
     import SystemMode from '$lib/images/mode/system-mode.svg';
@@ -84,8 +84,8 @@
             : `${base}/console`}>
         <img
             src={$app.themeInUse == 'dark' ? AppwriteLogoDark : AppwriteLogoLight}
-            width="120"
-            height="22"
+            width="180"
+            height="52"
             alt="Appwrite" />
     </a>
     {#if isCloud}

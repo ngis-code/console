@@ -5,11 +5,11 @@
     import { template } from './store';
 </script>
 
-<Cover>
+<!-- <Cover>
     <svelte:fragment slot="header">
         <CoverTitle href={`/console/project-${$page.params.project}/functions/templates`}>
             {$template.name}
         </CoverTitle>
         <Id value={$template.id} event="user">{$template.id}</Id>
     </svelte:fragment>
-</Cover>
+</Cover> -->

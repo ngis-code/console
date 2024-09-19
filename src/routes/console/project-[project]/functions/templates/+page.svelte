@@ -158,16 +158,7 @@
                 </Collapsible>
             </div>
 
-            <section class="card u-margin-block-start-24">
-                <h4 class="body-text-1 u-bold">Contribute</h4>
-                <p class="u-margin-block-start-16">
-                    Have an idea for a function template? View our <a
-                        class="link"
-                        href="https://github.com/appwrite/templates/blob/main/CONTRIBUTING.md"
-                        target="_blank">contribution guidelines</a
-                    >.
-                </p>
-            </section>
+         
         </section>
         <section>
             {#if data.templates.length > 0}
